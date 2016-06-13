@@ -1,4 +1,4 @@
-<?PHP
+<?php
 
 function getUserIP()
 {
@@ -25,7 +25,7 @@ function getUserIP()
 
 $user_ip = getUserIP();
 
-echo "Hello world"; // Output IP address [Ex: 177.87.193.134]
+echo $user_ip; // Output IP address [Ex: 177.87.193.134]
 
 
 ?>
